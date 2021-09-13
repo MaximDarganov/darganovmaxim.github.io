@@ -1,0 +1,99 @@
+
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+    <title>Darganov Maxim</title>
+  </head>
+  <body>
+  <ol>
+	<li><a href="https://kubsu.ru/">абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
+    <li><a href="http://kubsu.ru/">абсолютная  на главную сайта kubsu.ru в протоколе https</a></li>
+	<li><a href="ftp://max.org/files/file.html">Ссылка на файл на сервере FTP без авторизации</a></li>
+    <li><a href="ftp://user:123@max.org/files/file.html">Ссылка на файл на сервере FTP с авторизацией</a></li>
+    <li><a href="http://max.org#anchor">Ссылка на фрагмент страницы некоторого сайта</a></li>
+    <li><a href="#top">Ссылка на фрагмент текущей страницы</a></li>
+    <li><a href="http://shpargalkablog.ru/2016/09/url-parameters-js.html?a&b&c">Ссылка с двумя параметрами в URL</a></li>
+    <li>
+                    Список ссылок основной навигации сайта с подписями title
+                    <ul>
+                        <li><a href="#head1" title="Нумерованный список гиперссылок">Нумерованный список гиперссылок</a></li>
+                        <li><a href="#head2" title="Форма">Форма</a></li>
+                    </ul>
+                </li>
+                <li><a>Ссылка без href</a></li>
+                <li><a href="">Ссылка с пустым href</a></li>
+                <li><a href="http://max.org" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+                <li><a href="http://maxim.org" rel="nofollow"><!--noindex-->Ссылка, запрещенная для индексации поисковиками<!--/noindex--></a></li>
+                <li><p>Контекстная <a href="http://max.org">ссылка</a> в тексте абзаца</p></li>
+                    Ссылка-изображение<br/>
+                    <li><a href="http://max.org"><img src="https://wallpapers.com/images/high/black-bmw-m6-dark-x48qnk0baob7pakm.jpg" alt="Описание картинки"></a>
+                </li>
+                <li>
+                    Ссылки из прямоугольных и круглых областей картинки<br/>
+                    <img src="https://wallpapers.com/images/high/castle-trees-rocks-0b9q5n3biqn7byhr.jpg" alt="Описание картинки" usemap="#mymap">
+                    <map name="mymap">
+                       <area shape="rect" coords="60,45,100,300" href="https://wallpapers.com/car" alt="Прямоугольная область">
+                       <area shape="circle" coords="200,145,35" href="https://travel.yandex.ru/avia/?clid=2255400-225&utm_source=distribution&utm_medium=bookmark&utm_campaign=ru" alt="Круглая область">
+                    </map>
+                </li>
+                <li><a href="page">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="./about/page">Относительная ссылка на страницу в каталоге about</a></li>
+                <li><a href="../page">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+                <li><a href="../../page">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a></li>
+                <li><a href="/">Сокращенная ссылка на главную</a></li>
+                <li><a href="/pages/page">Сокращенная ссылка на внутреннюю</a></li>
+				</ol>
+            </ol>
+			<form method="POST" id="form">
+            <h2 id="head2">Форма</h2>
+            <form action="http://example.com" method="POST">
+                <label>
+                    Имя:<br/>
+                    <input name="yourname">
+                </label><br/>
+                <label>
+                    e-mail:<br/>
+                    <input name="e-mail"
+                    type="email"/>
+                </label><br/>
+                <label>
+                    Дата рождения:<br/>
+                    <input name="dateofbirth"
+                    type="date"/>
+                </label><br/>
+                Какая цифра больше:<br />
+                    <label><input type="radio" name="max" value="367"/>
+                    1 </label>
+                    <label><input type="radio" name="max1" value="899"/>
+                    2</label>
+                    <label><input type="radio" name="max1" value="456"/>
+                    3</label>
+                    <label><input type="radio" checked="checked" name="max1" value="351"/>
+                    4</label><br/>
+				Пол:<br />
+                    <label><input type="radio" name="max1" value="1"/>
+                    женский</label>
+                   <label><input type="radio" name="max1" value="2"/>
+                    мужской</label><br />
+                    <!-- <label> -->
+                    Кто вы?:<br/>
+                    <select name="p" multiple="multiple">
+                    <option value="student" selected="selected">студент</option>
+                    <option value="sotrudnik">Сотрудник</option>
+                    <option value="abiturient">Абитуриент</option>
+                    </select>
+                </label><br/>
+                <label>
+                    Биография:<br/>
+                    <textarea name="bio">Расскажите о себе...</textarea>
+                </label><br/>
+                С контрактом ознакомлен(а):<br/>
+                <label>
+                    <input type="checkbox" checked="checked" name="check-1"/>
+                </label><br/>
+                <input type="submit" value="Отправить"/>
+            </form>
+  </body>
+
+</html>
+ 
