@@ -36,7 +36,7 @@ ul {
   flex-direction: column;
 }
 
-/* Хедр */
+
 
 .header {
   background-color: rgb(144, 238, 144);
@@ -53,7 +53,7 @@ ul {
   margin-right: 50px;
 }
 
-/* Навигация */
+
 
 .nav {
   margin-top: 20px;
