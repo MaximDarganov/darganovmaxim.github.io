@@ -78,7 +78,7 @@ ul {
   text-decoration: none;
 }
 
-/* Ссылки */
+
 
 .hyperlinks {
   order: 1;
@@ -111,7 +111,7 @@ ul {
   max-height: 250px;
 }
 
-/* Стили таблицы */
+
 
 .table {
   order: 2;
@@ -142,7 +142,7 @@ ul {
   border: 1px solid #000000;
 }
 
-/* Форма */
+
 
 .contacts {
   order: 3;
@@ -182,7 +182,7 @@ ul {
   resize: none;
 }
 
-/* Подвал */
+
 
 .footer {
   display: flex;
