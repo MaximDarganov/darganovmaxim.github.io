@@ -22,7 +22,7 @@ ul {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 920px;
   margin: 0 auto;
 }
 
@@ -36,10 +36,10 @@ ul {
   flex-direction: column;
 }
 
-/* Хедр */
+
 
 .header {
-  background-color: rgb(0, 174, 255);
+  background-color: rgb(144, 238, 144);
   width: 100%;
 }
 
@@ -53,19 +53,17 @@ ul {
   margin-right: 50px;
 }
 
-/* Навигация */
+
 
 .nav {
   margin-top: 20px;
-  background-color: rgb(0, 174, 255);
-  max-width: 100%;
+  background-color: rgb(144, 238, 144);
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .nav__list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   margin-bottom: 0px;
   padding: 10px;
@@ -80,7 +78,7 @@ ul {
   text-decoration: none;
 }
 
-/* Ссылки */
+
 
 .hyperlinks {
   order: 1;
@@ -88,10 +86,10 @@ ul {
 }
 
 .hyperlinks__inner {
-  max-width: 100%;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 40px;
-  background-color: rgb(0, 174, 255);
+  background-color: rgb(144, 238, 144);
 }
 
 .hyperlinks__list {
@@ -113,10 +111,10 @@ ul {
   max-height: 250px;
 }
 
-/* Стили таблицы */
+
 
 .table {
-  order: 3;
+  order: 2;
 }
 
 .table__inner {
@@ -133,7 +131,7 @@ ul {
 }
 
 .table__tr:nth-child(even) {
-  background-color: rgb(0, 174, 255);
+  background-color: rgb(144, 238, 144);
 }
 
 .table__td {
@@ -144,10 +142,10 @@ ul {
   border: 1px solid #000000;
 }
 
-/* Форма */
+
 
 .contacts {
-  order: 2;
+  order: 3;
   margin-top: 20px;
 }
 
@@ -184,13 +182,13 @@ ul {
   resize: none;
 }
 
-/* Подвал */
+
 
 .footer {
   display: flex;
   width: 100%;
   margin-top: 20px;
-  background-color: rgb(0, 174, 255);
+  background-color: rgb(144, 238, 144);
 }
 
 .footer__copy {
