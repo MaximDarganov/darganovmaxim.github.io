@@ -9,7 +9,7 @@
 
       .nav {
         margin-top: 20px;
-        background-color: rgb(0, 174, 255);
+        background-color: rgb(0, 255, 127);
         max-width: 800px;
         margin: 0 auto;
       }
@@ -18,7 +18,7 @@
         max-width: 800px;
         margin: 0 auto;
         padding: 0 40px;
-        background-color: rgb(0, 174, 255);
+        background-color: rgb(0, 255, 127);
      }
      
      .table {
